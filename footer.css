@@ -1,0 +1,7 @@
+.footer_texto{
+    color: var(--azul);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 1.5em;
+    text-align: center;
+}

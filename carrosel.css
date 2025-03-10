@@ -1,0 +1,75 @@
+.carrosel__titulo{
+    color:var(--laranja);
+    background-color: var(--branco);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 1em 0 0.5em 0;
+
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next{
+    display: none;
+
+}
+.swiper-pagination{
+    position: initial;
+}
+
+.card{
+    background: var(--branco);
+    box-shadow: 0px 4px 4px #07070700(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+
+}
+
+.card__descriçao{
+    display: flex;
+    
+}
+
+.card__botoes{
+    display: flex;
+    justify-content: space-between;
+}
+.botoes__lista{
+    display: flex;
+}
+.card__titulo{
+    color: var(--laranja);
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0.5em;
+}
+.card__subtitulo{
+    color: var(--azul);
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0.5em;
+}
+.card__texto{
+    color: var(--preto);
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 0.25em;
+}
+.botoes__link{
+    background-color: var(--laranja);
+    padding: 1em 2.3em;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--branco);
+}
+.card__imagem{
+    padding-bottom: 1em;
+}
+.icone__estrelinha__card{
+    padding-left: 0.6em;
+}

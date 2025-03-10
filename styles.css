@@ -1,0 +1,22 @@
+@import url("/projeto003/styles/header.css");
+@import url("/projeto003/styles/banner.css");
+@import url("/projeto003/styles/carrosel.css");
+@import url("/projeto003/styles/topicos.css");
+@import url("/projeto003/styles/footer.css");
+
+:root{
+--cor-de-fundo: #EBECEE;
+--azul-degrade: linear-gradient(to right, #002F52, #326589);
+--laranja: #EB9B00;
+--preto: #000000;
+--branco: #FFFFFF;
+--fonte-principal: "Poppins";
+--azul: #002F52;
+
+}
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}

@@ -1,0 +1,42 @@
+.links__utilitarios{
+    background: var(--azul-degrade);
+}
+
+.links__utilitarios__titulo{
+    color: var(--branco);
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    padding:  1em 0.6em;
+}
+
+.topicos__visitados{
+    padding: 1em 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+    
+}
+
+.topicos__link{
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--branco);
+    
+    
+}
+
+.topico__botoes{
+    display:flex;
+    flex-wrap: wrap;
+   background-color:var(--laranja);
+   padding: 10px 20px;
+   margin: 8px; 
+   border-radius: 1px;
+   
+   
+    
+
+}
