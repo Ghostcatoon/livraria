@@ -1,0 +1,122 @@
+/* Normalize.css - Padrão */
+
+/* Estilo padrão para todas as tags */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo do html */
+html {
+  line-height: 1.15; /* Ajusta a altura da linha */
+  -webkit-text-size-adjust: 100%; /* Impede que o iOS ajuste o tamanho da fonte */
+  -moz-tab-size: 4; /* Define o tamanho da tabulação */
+  tab-size: 4; /* Define o tamanho da tabulação */
+}
+
+/* Estilo básico do body */
+body {
+  font-family: sans-serif; /* Fonte padrão */
+  font-size: 1rem; /* Tamanho padrão de fonte */
+  line-height: 1.5;
+  color: #333; /* Cor de texto padrão */
+  background-color: #fff; /* Cor de fundo padrão */
+}
+
+/* Elementos do HTML */
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; /* Normaliza o tamanho de fonte dos cabeçalhos */
+  margin: 0;
+}
+
+/* Normaliza o estilo das listas */
+ul, ol {
+  list-style: none;
+}
+
+/* Links */
+a {
+  color: inherit; /* Remove o comportamento de cor padrão */
+  text-decoration: none; /* Remove o sublinhado padrão */
+  background-color: transparent; /* Remove o fundo dos links */
+}
+
+a:focus, a:hover {
+  text-decoration: underline; /* Sublinha ao passar o mouse ou ao focar */
+}
+
+/* Normaliza tabelas */
+table {
+  border-collapse: collapse; /* Remove as bordas duplas */
+  width: 100%; /* Faz a tabela ocupar toda a largura disponível */
+}
+
+caption {
+  text-align: left;
+  font-weight: bold;
+}
+
+/* Normaliza elementos de formulários */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  border: none;
+  background: none;
+  outline: none;
+  
+}
+
+/* Define estilo para os campos de formulário */
+input, textarea {
+  padding: 0.5em;
+  border-radius: 0.25em;
+}
+
+select {
+  -webkit-appearance: menulist-button; /* Aplica estilo padrão de lista */
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* Imagens */
+img {
+  max-width: 100%; /* Garante que a imagem não ultrapasse os limites do contêiner */
+  height: auto; /* Ajusta a altura automaticamente */
+}
+
+/* Normaliza os blocos de formatação */
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo padrão para elementos de formulários */
+fieldset {
+  padding: 0;
+  border: none;
+  margin: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+/* Define o estilo de uma borda que seja mais visível em dispositivos móveis */
+input[type="search"] {
+  -webkit-appearance: none; /* Remove o estilo padrão de input de busca */
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* Estilo para o código */
+code, pre {
+  font-family: monospace; /* Estilo de fonte monoespaçada para código */
+}
+

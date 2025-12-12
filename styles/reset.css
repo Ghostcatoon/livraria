@@ -1,0 +1,54 @@
+/* Reset de CSS - Padrão */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%; /* Para garantir que 1rem = 16px */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #fff; /* Cor de fundo padrão */
+}
+
+ul, ol {
+  list-style: none; /* Remove os pontos e números das listas */
+}
+
+a {
+  text-decoration: none; /* Remove o sublinhado padrão dos links */
+  color: inherit; /* Herda a cor do texto */
+}
+
+table {
+  border-collapse: collapse; /* Garante que as bordas das tabelas não fiquem duplas */
+}
+
+img {
+  max-width: 100%; /* Garante que as imagens não ultrapassem os limites do contêiner */
+  display: block; /* Remove espaços em branco abaixo das imagens */
+}
+
+button, input, select, textarea {
+  font-family: inherit; /* Usa a fonte padrão do site */
+  font-size: inherit; /* Mantém o tamanho da fonte */
+  border: none; /* Remove a borda padrão dos botões e inputs */
+  background: none; /* Remove o fundo padrão */
+  outline: none; /* Remove o contorno ao focar */
+}
+
+fieldset {
+  border: none; /* Remove bordas dos fieldsets */
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
